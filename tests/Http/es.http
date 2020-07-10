@@ -1,0 +1,26 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://10.4.4.83:8082/ZF/search
+Content-Type: application/json
+
+{"domain":"ZF_en","accessToken":"dc698883cbca47bbac191787969f9de4","version":5,"cache":false,"agent":"web","pageSize":20,"pageNo":1,"collapse":{"field":"groupColorGoodsId"},"filters":[{"field":"grids","values":["301"]}],"sorts":[{"field":"stockFlag","order":"desc"},{"field":"week2SalesVolume","order":"desc"},{"field":"addTime","order":"desc"}]}
+
+###
+
+POST http://pre-release.softlayer.esearchapi.com/ZF/search
+Content-Type: application/json
+
+{"domain":"ZF_en","accessToken":"dc698883cbca47bbac191787969f9de4","version":5,"cache":false,"agent":"wap","pageSize":120,"pageNo":1,"collapse":{"field":"groupColorGoodsId"},"filters":[{"field":"grids","values":["203"]}],"options":{"query.rerank.enable":true,"query.sort.solution":"category","query.sort.scene":"geshopcms"},"identify":"","countryCode":"HK"}
+###
+
+POST http://search.esearchapi.com/ZF/search
+Content-Type: application/json
+
+{"domain":"ZF_en","accessToken":"dc698883cbca47bbac191787969f9de4","version":5,"cache":false,"agent":"wap","pageSize":120,"pageNo":1,"collapse":{"field":"groupColorGoodsId"},"filters":[{"field":"grids","values":["203"]}],"options":{"query.rerank.enable":true,"query.sort.solution":"category","query.sort.scene":"geshopcms"},"identify":"","countryCode":"HK"}
+###
+

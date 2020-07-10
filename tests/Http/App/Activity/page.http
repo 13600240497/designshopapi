@@ -1,0 +1,24 @@
+POST http://{{host}}/api/promotion/35625
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+#Cookie: staging=true
+
+{"site_code": "zf-app","pipeline": "ZF","lang": "en","user_group": 0}
+###
+
+POST http://{{host}}/app/activity/page/detail
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+#Cookie: staging=true
+
+{"site_code": "zf-app","page_id": 35625,"pipeline": "ZF","lang": "en","user_group": 0}
+###
+
+
+POST http://{{host}}/app/activity/page/asyncInfo?enable_track_log=1
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+#Cookie: staging=true
+
+{"page_id":"35625","site_code":"zf-app","lang":"en","sort_id": "recommend","cookie_id":"1579050468796-0247649","bts_unique_id":"afa02ed07d49d0ddccadac4351551426","country_code":"US","pipeline":"ZF","user_group":0,"agent":"ios"}
+###

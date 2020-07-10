@@ -1,0 +1,33 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://{{host}}/api/promotion/70268
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+Cookie: staging=true
+
+{"site_code": "zf-app","pipeline": "ZF","lang": "en","user_group": 0}
+###
+
+POST http://{{host}}/geshop/design/asyncInfo
+Content-Type: application/json
+
+{"page_id": "28893","site_code": "zf-wap","pipeline": "ZF","lang": "en", "user_group": 0}
+###
+
+POST http://{{host}}/activity/page/asyncInfo
+Content-Type: application/json
+
+{"page_id": "39129","site_code": "zf-wap","pipeline": "ZF","lang": "en", "user_group": 0}
+###
+
+POST http://{{host}}/geshop/design/fallback
+Content-Type: application/json
+
+{"wap":"{\"site_code\":\"zf-wap\",\"page_id\":\"28893\"}","app":"{\"site_code\":\"zf-app\",\"page_id\":\"28923\"}","pipeline":"ZF","lang":"en"}
+###
+

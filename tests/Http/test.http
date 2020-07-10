@@ -1,0 +1,119 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/api/promotion/32840
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"agent":"Android","user_group":"0","device_id":"93d15f5dbf74fbfa","site_code":"zf-app","page_no":"1","cookie_id":"1572523791936-281737217198673156","version":"5.4.0","user_country_code":"US","token":"","pipeline":"ZF","country_code":"US","user_country_id":"41","refine_id":{"Color":["white","pink"]},"lang":"en","country_id":"41","page_size":"20"}
+
+###
+#{"agent":"Android","user_group":"1","device_id":"93d15f5dbf74fbfa","site_code":"zf-app","page_no":"1","cookie_id":"1572523791936-281737217198673156","price_min":"0.0","version":"5.4.0","user_country_code":"US","token":"","pipeline":"ZF","country_code":"US","user_country_id":"41","lang":"en","price_max":"0.0","country_id":"41","page_size":"20"}
+
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/geshop/design/asyncInfo
+Content-Type: application/x-www-form-urlencoded
+
+page_id=34437&site_code=zf-wap&pipeline=ZF&lang=en&is_first=1&cookie_id=&country_code=&user_group=1
+
+###
+
+
+POST http://api.hqgeshop.com/api/promotion/34982?enable_track_log=1
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"site_code":"zf-app","pipeline":"ZF","lang":"en","user_group":"0"}
+
+###
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/geshop/design/asyncInfo?enable_track_log=1
+Content-Type: application/x-www-form-urlencoded
+
+page_id=35030&site_code=zf-wap&pipeline=ZF&lang=en&cookie_id=&country_code=&user_group=0&env=2&is_first=1
+
+###
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/api/promotion/34982?enable_track_log=1
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"site_code":"zf-app","pipeline":"ZFAU","lang":"en","user_group":"0"}
+
+###
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/activity/page/asyncInfo
+Content-Type: application/x-www-form-urlencoded
+
+page_id=34951&site_code=zf-wap&pipeline=ZFAU&lang=en&cookie_id=0&country_code=&user_group=0&env=3&is_first=1
+
+###
+
+
+POST http://test.geshop-api.com.release_sop.php7.egomsl.com/geshop/design/asyncInfo?enable_track_log=1
+Content-Type: application/x-www-form-urlencoded
+
+page_id=55515&site_code=zf-app&pipeline=ZF&lang=en&user_group=0
+
+###
+
+
+GET http://api.hqgeshop.com/geshop/design/asyncInfo?callback=jQuery34108109470640951653_1574063824144&enable_track_log=1&page_id=61703&site_code=zf-app&pipeline=ZF&lang=es&cookie_id=&country_code=&user_group=0&env=1&is_first=1&_=1574063824145
+
+###
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/activity/page/asyncInfo
+Content-Type: application/x-www-form-urlencoded
+
+page_id=35030&site_code=zf-wap&pipeline=ZF&lang=es&cookie_id=&country_code=&user_group=0&env=1&is_first=1
+
+###
+
+POST http://api.hqgeshop.com/api/promotion/35030?enable_track_log=1
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"site_code":"zf-wap","pipeline":"ZF","lang":"es","user_group":"0"}
+
+###
+#http://www.geshop-api.com.tianhaishen.dev.local.com/activity/page/asyncInfo?callback=jQuery210042342091620175126_1574083122103&page_id=35030&site_code=zf-wap&pipeline=ZF&lang=en&cookie_id=0&country_code=&user_group=0&env=3&is_first=1&_=1574083122104&category_id=1&price_min=1&price_max=8
+
+http://www.geshop-api.com.tianhaishen.dev.local.com/geshop/design/asyncInfo?callback=jQuery34105602181654992096_1574087314768&page_id=34937&site_code=zf-wap&pipeline=ZF&lang=en&cookie_id=&country_code=&user_group=0&env=1&is_first=1&_=1574087314769&category_id=1&refine_id={"Style":["fashion"]}
+###//www.geshop-api.com.tianhaishen.dev.local.com/geshop/design/asyncInfo?callback=jQuery21008198420595129647_1574082907933&page_id=61486&site_code=zf-wap&pipeline=ZF&lang=en&component_id=1574062486428%2C1574071763328&user_group=0&cookie_id=&country_code=&page_no=1&page_size=20&category_id=1&sort_id=&refine_id=&price_max=&price_min=&_=1574082907936
+
+
+POST http://www.geshop-api.com.tianhaishen.dev.local.com/api/promotion/35247
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"site_code":"zf-app","pipeline":"ZF","lang":"en","user_group":"0"}
+
+###
+
+POST http://test.geshop-api.com.release_sop.php7.egomsl.com/api/promotion/35247
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"site_code":"zf-app","pipeline":"ZF","lang":"en","user_group":"0"}
+
+###
+
+POST https://api.hqgeshop.com/app/activity/page/asyncInfo
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"agent":"Android","user_group":"0","device_id":"8f17f9dd43f6c89e","bts_unique_id":"e533cef49a47953673ce75cfa79a3a6a","site_code":"zf-app","cookie_id":"1578539040598-518113998316028315","version":"5.7.0","user_country_code":"GB","token":"","pipeline":"ZFGB","page_id":"79140","country_code":"GB","user_country_id":"40","lang":"en","api_version ":"v1","country_id":"40"}
+
+###
+
+POST https://api.hqgeshop.com/app/activity/page/asyncInfo?enable_track_log=1
+Accept: application/vnd.GESHOP.v1+json
+Content-Type: application/json
+
+{"page_id":"76134","site_code":"zf-app","lang":"en","cookie_id":"1579050468796-0247649","bts_unique_id":"afa02ed07d49d0ddccadac4351551426","country_code":"US","pipeline":"ZF","user_group":0,"agent":"ios"}
+
+###

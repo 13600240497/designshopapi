@@ -1,0 +1,3 @@
+[submodule "vendor/dingo/blueprint"]
+	path = vendor/dingo/blueprint
+	url = https://github.com/dingo/blueprint.git

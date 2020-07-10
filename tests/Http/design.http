@@ -1,0 +1,6 @@
+POST http://{{host}}/geshop/design/es-search-sort-by-list
+Content-Type: application/json
+
+{"site_code": "zf-wap","pipeline": "ZF","lang": "fr"}
+
+###

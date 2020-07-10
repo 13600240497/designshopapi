@@ -1,0 +1,20 @@
+POST http://www.pc-zaful-v56-php5.fpm.egomsl.com/geshop/goods/getTskGoodsDetailByPriceSysIds
+Content-Type: application/x-www-form-urlencoded
+
+content={"lang":"en","pipeline":"zf","price_sys_ids":"14051"}
+###
+
+POST http://m.wap-zaful-v56-php5.fpm.egomsl.com/geshop/goods/getTskGoodsDetailByPriceSysIds
+Content-Type: application/x-www-form-urlencoded
+
+content={"lang":"en","pipeline":"zf","price_sys_ids":"14051"}
+###
+
+
+POST https://m.zaful.com/fun/index.php?act=discountPrice
+Content-Type: application/x-www-form-urlencoded
+Cookie: staging=true
+
+pipeline=zf&skus=449411401,226386506,376307501,342853401,460798201,315190901,460798601,454248201,312089901,453216001,453208701,343131302,353105101,448264601,453207701,353002001,375924101,278595702,458850902,368588902&isShowDetail=0&show_promotion=1
+
+###

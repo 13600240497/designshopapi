@@ -1,0 +1,17 @@
+POST http://{{host}}/web/pc/goods/getSopGoodsDetail
+Content-Type: application/json
+
+{"site_code": "zf-wap","pipeline": "ZF","lang": "fr", "rule_id":352}
+###
+
+POST http://{{host}}/web/m/goods/getAutoRefreshUiGoodsList
+Content-Type: application/json
+
+{"site_code": "zf-pc","pipeline": "ZF","lang": "en", "page_id":24244}
+###
+
+POST http://{{host}}/web/pc/goods/getAutoRefreshUiGoodsList
+Content-Type: application/json
+
+{"site_code": "zf-pc","pipeline": "ZF","lang": "en", "page_id":24244}
+###
